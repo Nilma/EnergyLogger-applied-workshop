@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python3 -m http.server 8000 --directory ../apps/cakeShop-compressed &
+python3 -m http.server 8000 --directory ../apps/javascript/cakeShop-compressed &
 SERVER_PID=$!
 
 sleep 2
